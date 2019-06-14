@@ -340,3 +340,14 @@ class People
   @name = str
  end
 end
+
+class ChildPeople < People
+ def self.berm
+     puts "私は目からビームが出せます"
+ end
+end
+
+ChildPeople.berm
+ChildPeople.greet
+
+ 
